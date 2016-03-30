@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="themes/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/components/menu.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="owl-carousel/owl.theme.css">
+		<link rel="stylesheet" type="text/css" href="owl-carousel/owl.transition.css">
+
+		<style type="text/css">
+			#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+		</style>
+	</head>
+	<body>
+		<div id="owl-demo" class="owl-carousel owl-theme">
+		  
+		  <div class="item"><img src="images/1.jpg" alt="The Last of us"></div>
+		  <div class="item"><img src="images/2.jpg" alt="GTA V"></div>
+		  <div class="item"><img src="images/3.jpg" alt="Mirror Edge"></div>
+		  <div class="item"><img src="images/8.jpg" alt="khaadi"></div>
+		 
+		</div>
+
+
+
+		<script type="text/javascript" src="themes/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="themes/assets/js/jquery.js"></script>
+		<script type="text/javascript" src="node_modules/semantic-ui/dist/semantic.min.js"></script>
+		<script type="text/javascript" src="owl-carousel/owl.carousel.min.js" ></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+ 
+			  $("#owl-demo").owlCarousel({
+			 
+			      navigation : false, // Show next and prev buttons
+			      slideSpeed : 800,
+			      paginationSpeed : 400,
+			      singleItem:true
+			 
+			      // "singleItem:true" is a shortcut for:
+			      // items : 1, 
+			      // itemsDesktop : false,
+			      // itemsDesktopSmall : false,
+			      // itemsTablet: false,
+			      // itemsMobile : false
+			 
+			  });
+			 
+			});
+		</script>
+	</body>
+</html>

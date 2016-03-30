@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Drawing</title>
+
+		<style type="text/css">
+			body > div{
+				border: 1px solid black;
+				position: relative;
+				width: 20%;
+				height: 20%;
+				left: 20%;
+				top: 20%;
+				background: whitesmoke;
+			}
+			div > img{
+				width: 40%;
+				height: 70%;
+			} 
+
+			.sale-tag{
+				border-radius: 1px;
+				position: absolute;
+				width: 40%;
+				height: 15%;
+				left: 65%;
+				top: 75%;
+				background: brown;
+				padding-left: 10px;
+				padding-top: 4px;
+				font-size: 0.8em;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="abc">
+			<img src="images/Ring-icon.png">
+			This is a div
+			<div class="sale-tag">
+				Sale: 50% OFF
+			</div>
+		</div>	
+
+		<script type="text/javascript" src="themes/assets/js/jquery.js"></script>
+		<script type="text/javascript">
+			$('document').ready(function  () {
+				$('#abc').animate({
+					right: "+=500px";
+				})
+			});
+		</script>
+	</body>	
+</html>

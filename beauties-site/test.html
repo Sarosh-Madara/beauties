@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> test slide </title>
+ <style>
+  form {
+    background: #de9a44;
+    margin: 3px;
+    width: 15%;
+    height: 15%;
+    display: none;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  </style>
+</head>
+<body>
+
+
+Click me!
+<form>
+	<center><input type="text" placeholder="phone" /></center>
+
+</form>
+
+	
+
+	<script type="text/javascript" src="themes/assets/js/jquery.js"></script>
+	<script type="text/javascript">
+		$( document.body ).click(function () {
+  if ( $( "form:first" ).is( ":hidden" ) ) {
+    $( "form" ).slideDown( "slow" );
+  } else {
+    $( "form" ).hide();
+  }
+});
+
+	</script>
+</body>
+</html>

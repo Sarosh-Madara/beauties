@@ -1,0 +1,81 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="themes/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="themes/assets/css/carousel.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/components/menu.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
+	</head>
+	<body>
+		<div id = "myCarousel" class = "carousel slide">
+		   
+		   <!-- Carousel indicators -->
+		   <ol class = "carousel-indicators">
+		      <li data-target = "#myCarousel" data-slide-to = "#aa" class = "active"></li>
+		      <li data-target = "#myCarousel" data-slide-to = "#ab"></li>
+		      <li data-target = "#myCarousel" data-slide-to = "#ac"></li>
+		   </ol>   
+		   
+		   <!-- Carousel items -->
+		   <div class = "carousel-inner">
+		      <div id="aa" class = "item active">
+		         <img src = "images/1.jpg" alt = "First slide">
+		      </div>
+		      
+		      <div id="ab" class = "item">
+		         <img src = "images/2.jpg" alt = "Second slide">
+		      </div>
+		      
+		      <div id="ac" class = "item">
+		         <img src = "images/3.jpg" alt = "Third slide">
+		      </div>
+		   </div>
+		   
+		   <!-- Carousel nav -->
+		   <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">&lsaquo;</a>
+		   <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">&rsaquo;</a>
+		   
+		   <!-- Controls buttons -->
+		   <div style = "text-align:center;">
+		      <input type = "button" class = "btn prev-slide" value = "Previous Slide">
+		      <input type = "button" class = "btn next-slide" value = "Next Slide">
+		      <input type = "button" class = "btn slide-one" value = "Slide 1">
+		      <input type = "button" class = "btn slide-two" value = "Slide 2">            
+		      <input type = "button" class = "btn slide-three" value = "Slide 3">
+		   </div>
+			
+		</div> 
+
+
+		<script type="text/javascript" src="themes/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="themes/assets/js/jquery.js"></script>
+		<script type="text/javascript" src="node_modules/semantic-ui/dist/semantic.min.js"></script>
+		<script>
+		   $(function() {
+			
+		      // Cycles to the previous item
+		      $(".prev-slide").click(function() {
+		         $("#myCarousel").carousel('prev');
+		      });
+		      
+		      // Cycles to the next item
+		      $(".next-slide").click(function() {
+		         $("#myCarousel").carousel('next');
+		      });
+		      
+		      // Cycles the carousel to a particular frame 
+		      $(".slide-one").click(function() {
+		         $("#myCarousel").carousel(0);
+		      });
+		      
+		      $(".slide-two").click(function() {
+		         $("#myCarousel").carousel(1);
+		      });
+		      
+		      $(".slide-three").click(function() {
+		         $("#myCarousel").carousel(2);
+		      });
+		   });
+		</script>
+	</body>
+</html>

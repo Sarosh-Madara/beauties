@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Beauties - Shop Clothes Online</title>
+	<link rel="stylesheet" type="text/css" href="themes/assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="themes/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/components/menu.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.transitions.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="themes/assets/css/header-fixed.css">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="themes/assets/css/animate.css">
+
+	<!-- quick product view -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- product quick view -->
+	<link rel="stylesheet" href="themes/assets/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="themes/assets/css/style.css"> <!-- Resource style -->
+	<style type="text/css">
+
+
+	.fadeInBlock{
+		opacity:0;
+		-moz-opacity:0;
+		-webkit-opacity:0;
+		filter: alpha(opacity=0);
+		-khtml-opacity: 0.5;
+		-webkit-filter:opacity=0%
+	}
+
+	/* CSS Scrollbar */ 
+
+	body {
+		overflow-x: hidden;
+		background-color: whitesmoke;
+	}
+
+	body::-webkit-scrollbar {
+		width: 12px;
+	}
+
+	body::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px #292c2f;
+		border-radius: 1px;
+	}
+
+	body::-webkit-scrollbar-thumb {
+		border-radius: 15px;
+		background-color: #292c2f;
+		outline: 1px solid slategrey;
+	}
+
+	/* end Scrollbar */
+	#owl-demo .item img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	body > div{
+		margin-top: 0px;
+	}
+
+	.center {
+		margin: auto;
+	}
+
+	.setleft{
+		float: left;
+	}
+
+	.modal-small-img{		
+		width: 300px;
+		height: 350px;
+	}
+	/*.ui.inverted.form input[type=text]{
+		border: 2px solid transparent;
+	}*/
+	.ui.inverted.form input[type=text]:hover{
+		/*border: 2px solid black;*/
+		-webkit-box-shadow: 1px 0px 15px 0px #FE0000;
+		-moz-box-shadow:    1px 0px 15px 0px #FE0000;
+		box-shadow:         1px 0px 15px 0px #FE0000;
+	}
+
+	.ui.inverted.form input[type="text"]:focus{
+		-webkit-box-shadow: 1px 0px 26px 0px #FE0000;
+		-moz-box-shadow:    1px 0px 26px 0px #FE0000;
+		box-shadow:         1px 0px 26px 0px #FE0000;
+	}
+
+	.ui .item .avatar{
+		background-color: #000;
+	}
+
+	.ui.list .list>.item a.header, .ui.list>.item a.header{
+		color: white;
+	}
+	</style>
+
+</head>
+<body>
+
+	<!-- Header starts -->
+	<a name="home"></a> <!-- anchor link -->
+	<header class="header-fixed">
+
+		<div class="header-limiter">
+
+			<h1><a href="#">Beauties<span>.pk</span></a></h1>
+
+			<nav>
+				<a class="smoothScroll" href="#home"><b>Home</b></a>
+				<a class="smoothScroll" href="#collection"><strong>Collection</strong></a>
+				<a class="smoothScroll" href="#about"><strong>About</strong></strong></a>
+				<a class="smoothScroll" href="#contact"><strong>Contact</strong></a>
+			</nav>
+
+		</div>
+
+	</header>
+	<!-- Header end -->
+
+	<ul class="cd-items cd-container">
+		<li class="cd-item">
+			<img src="images/moonsoon/1_converted.jpg" alt="Item Preview">
+			<a href="#cont1" class="cd-trigger">View Details</a>
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/1_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+
+		<li class="cd-item">
+			<img src="images/moonsoon/2_converted.jpg" alt="Item Preview">
+			<a href="#cont2" class="cd-trigger">Quick View</a>
+            
+           <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/2_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+            
+            
+		</li> <!-- cd-item -->
+
+		<li class="cd-item">
+			<img src="images/moonsoon/3_converted.jpg" alt="Item Preview">
+			<a href="#" class="cd-trigger">Quick View</a>
+            
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/3_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+        
+        <li class="cd-item">
+			<img src="images/moonsoon/5_converted.jpg" alt="Item Preview">
+			<a href="#" class="cd-trigger">Quick View</a>
+            
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/5_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+        
+        <li class="cd-item">
+			<img src="images/moonsoon/6_converted.jpg" alt="Item Preview">
+			<a href="#" class="cd-trigger">Quick View</a>
+            
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/6_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+        
+        <li class="cd-item">
+			<img src="images/moonsoon/8_converted.jpg" alt="Item Preview">
+			<a href="#" class="cd-trigger">Quick View</a>
+            
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/8_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+        
+        <li class="cd-item">
+			<img src="images/moonsoon/9_converted.jpg" alt="Item Preview">
+			<a href="#" class="cd-trigger">Quick View</a>
+            
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/9_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+        
+        <li class="cd-item">
+			<img src="images/moonsoon/10_converted.jpg" alt="Item Preview">
+			<a href="#" class="cd-trigger">Quick View</a>
+            
+            <div class="quick-view-content">
+            	<div class="quick-view-content-wrapper">
+                    <div class="cd-slider-wrapper">
+                        <ul class="cd-slider">
+                            <li class="selected"><img src="images/moonsoon/10_converted.jpg" alt="Product 1"></li>
+                        </ul> <!-- cd-slider -->
+            
+                        <ul class="cd-slider-navigation">
+                            <li><a class="cd-next" href="#0">Prev</a></li>
+                            <li><a class="cd-prev" href="#0">Next</a></li>
+                        </ul> <!-- cd-slider-navigation -->
+                    </div> <!-- cd-slider-wrapper -->
+        
+                    <div class="cd-item-info">
+                        <h2>Produt Title Unique 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, omnis illo iste ratione. Numquam eveniet quo, ullam itaque expedita impedit. Eveniet, asperiores amet iste repellendus similique reiciendis, maxime laborum praesentium.</p>
+            
+                        <ul class="cd-item-action">
+                            <li><button class="add-to-cart">Add to cart</button></li>					
+                            <li><a href="#">Learn more</a></li>	
+                        </ul> <!-- cd-item-action -->
+                    </div> <!-- cd-item-info -->
+            	</div>
+            </div>
+		</li> <!-- cd-item -->
+
+	</ul> <!-- cd-items -->
+
+	<div id="cd-quick-view" class="cd-quick-view">
+		<a href="#" class="cd-close">Close</a>
+	</div> <!-- cd-quick-view -->
+
+    <div id="cd-quick-view-coverlay"></div>
+
+
+
+
+
+
+
+
+
+	<!-- Footer starts -->
+	<div  class="footer_container">
+		<div class="footer-menu-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="block-title">
+							<div style="padding-top: 10px; padding-bottom: 15px"><strong><span>COMPANY<br></span></STRONG>
+							</div>
+						</div>
+						<div class=" block-content ">
+							<div class="ui link list">
+								<a class="item">About</a>
+								<a class="item">Store Location</a>
+							</div>
+						</div>
+					</div> <!-- Company block -->
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="block-title">
+							<div style="padding-top: 10px; padding-bottom: 15px"><strong><span>AVAILABLE COLLECTIONS<br></span></STRONG>
+							</div>
+						</div>
+						<div class="block-content">
+							<div class="ui link list">
+								<a class="item">Anum Lawn</a>
+								<a class="item">Asim Jofa</a>
+								<a class="item">Moonsoon</a>
+								<a class="item">Maria B</a>
+							</div>
+						</div>
+					</div> <!-- Available Collection -->
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="block-title">
+							<div style="padding-top: 10px; padding-bottom: 15px"><strong><span>HELP<br></span></STRONG>
+							</div>
+						</div>
+						<div class="block-content">
+							<div class="ui link list">
+								<a class="item">Customer Service</a>
+								<a class="item">FAQ</a>
+								<a class="item" href="">Privacy Policy</a>
+								<a class="item" href="">Terms & conditions</a>
+								<a class="item" href="">Shipping & handling</a>
+								<a class="item" href="">Returns & exchange</a>
+							</div>
+						</div>
+					</div> <!-- help block -->
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="block-title">
+							<div style="padding-top: 10px; padding-bottom: 15px"><STRONG><span>FOLLOW US<br></span></STRONG>
+							</div>
+						</div>
+						<div class="block-content">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-square-o fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x"></i>
+							</span>
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-square fa-stack-2x"></i>
+								<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+							</span>
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-square fa-stack-2x"></i>
+								<i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+							</span>
+						</div>
+					</div> <!-- Follow us block -->
+
+				</div>
+			</div> <!-- end row -->
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="themes/assets/js/jquery.js"></script>
+	<script type="text/javascript" src="themes/assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="node_modules/semantic-ui/dist/semantic.min.js"></script>
+	<script type="text/javascript" src="themes/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="owl-carousel/owl.carousel.min.js" ></script>
+	<script type="text/javascript" src="semantic/src/definitions/modules/dimmer.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+
+	<!-- quick-product-view -->
+	<script src="themes/assets/js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="themes/assets/js/velocity.min.js"></script>
+	<script src="themes/assets/js/main.js"></script> <!-- Resource jQuery -->
+  	
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+		var nishatDiv = $('#nishat-inner');
+		var nishatConst = "<h1>Nishat'16</h1>";
+		nishatDiv.html(nishatConst);
+		nishatDiv.append('<hr>');
+
+				// nishatDiv.addClass('container fadeInBlock');
+				// $('#nishat').html(nishatDiv);
+
+				$('.ui.accordion').accordion();
+
+				
+
+				$(window).scroll( function(){
+
+
+					$('.fadeInBlock').each( function(i){
+
+						var bottom_of_object = $(this).position().top + $(this).outerHeight();
+						var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+						/* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+						bottom_of_window = bottom_of_window + 200;  
+
+						if( bottom_of_window > bottom_of_object ){
+
+							$(this).animate({'opacity':'1'},500);
+
+
+						}
+					}); 
+
+				});
+
+
+				// scroll bar script
+				var $window = $(window);
+				var scrollTime = 0.6;
+				var scrollDistance = 400;
+
+				$window.on("mousewheel DOMMouseScroll", function(event){
+
+					event.preventDefault();	
+
+					var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+					var scrollTop = $window.scrollTop();
+					var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+
+					TweenMax.to($window, scrollTime, {
+						scrollTo : { y: finalScroll, autoKill:true },
+						ease: Power1.easeOut,
+						overwrite: 5							
+					});
+
+				});
+
+				// end scroll bar script
+
+
+				// header script
+				var showHeaderAt = 150;
+
+				var win = $(window),
+				body = $('body');
+
+				// Show the fixed header only on larger screen devices
+
+				if(win.width() > 600){
+
+					// When we scroll more than 150px down, we set the
+					// "fixed" class on the body element.
+
+					win.on('scroll', function(e){
+
+						if(win.scrollTop() > showHeaderAt) {
+							body.addClass('fixed');
+						}
+						else {
+							body.removeClass('fixed');
+						}
+					});
+
+				}
+				// end header script
+
+				$(".owl-carousel").owlCarousel({
+
+			      navigation : false, // Show next and prev buttons
+			      slideSpeed : 800,
+			      paginationSpeed : 400,
+			      singleItem:true,
+			      autoplay: true,
+			      autoplayTimeout: 1000,
+			      autoplayHoverPause: true
+
+			      // "singleItem:true" is a shortcut for:
+			      // items : 1, 
+			      // itemsDesktop : false,
+			      // itemsDesktopSmall : false,
+			      // itemsTablet: false,
+			      // itemsMobile : false
+
+			  });
+
+			  // $('#KH9876').elevateZoom();
+			  $('.special.card .image').dimmer({
+			  	on: 'hover'
+			  });
+			  $('#last1') .click(function  () {
+			  	$('#modal1').modal('show');
+			  });
+			 // $('#modal1').modal('show');
+
+			 function showModal () {
+			 	$('#modal1').modal('show');
+			 }
+
+			 $('.modal.button').click(function  () {
+			 	$('#modal1').modal({
+			 		show: 'true'
+			 	});
+			 });
+
+			});
+	</script>
+</body>
+</html>

@@ -114,13 +114,12 @@
 
 					<form id="moreSubscriber" class="ui form">
 							<div class="field">
-								<label>Full Name</label>
-								<input type="text" name="first-name" placeholder="Asma Ali Rana">
+								<input type="text" name="first-name" placeholder="eg. Asma Ali Rana">
 							</div>
 							<div class="field">
-								<label>Phone Number</label>
-								<input type="text" name="last-name" placeholder="0341-1234567">
+								<input type="text" name="last-name" placeholder="eg. 0341-1234567">
 							</div>
+							<button class="btn btn-default" type="button">Subscribe</button>
 						</form>
 				</div>
 
@@ -1990,7 +1989,7 @@
 			if($(this).height == '55.5312%'){
 				$(this).css('height','10%');
 			}else{
-				$(this).height('40%');
+				$(this).height('20%');
 			}
 		});
 

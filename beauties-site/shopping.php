@@ -3,7 +3,6 @@
 <html>
 <head>
 	<title>Beauties - Shop Clothes Online</title>
-	<link rel="stylesheet" type="text/css" href="themes/assets/css/custom.css">
 	<link rel="stylesheet" type="text/css" href="themes/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/components/menu.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
@@ -21,6 +20,7 @@
 	<!-- quick product view -->
 	<link rel="stylesheet" href="themes/assets/css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="themes/assets/css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" type="text/css" href="themes/assets/css/custom.css">
 
 
 	<style type="text/css">
@@ -33,208 +33,15 @@
 
 	}*/
 
-	.fadeInBlock{
-		opacity:0;
-		-moz-opacity:0;
-		-webkit-opacity:0;
-		filter: alpha(opacity=0);
-		-khtml-opacity: 0.5;
-		-webkit-filter:opacity=0%
-	}
-
 	html { 
         background: url('shopping_bg.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-}
+  }
 
-
-	/* CSS Scrollbar */ 
-
-	body {
-		overflow-x: hidden;
-		background-color: transparent;
-		/*background-image: url("pnp.jpg");
-		background-position: left top;
-		background: no-repeat;*/
-	}
-
-	.maincontent{
-		width: 90%;
-		margin: 5%;
-	}
-
-	body::-webkit-scrollbar {
-		width: 12px;
-	}
-
-	body::-webkit-scrollbar-track {
-		-webkit-box-shadow: inset 0 0 6px #292c2f;
-		border-radius: 1px;
-	}
-
-	body::-webkit-scrollbar-thumb {
-		border-radius: 15px;
-		background-color: #292c2f;
-		outline: 1px solid slategrey;
-	}
-
-	/* end Scrollbar */
-	#owl-demo .item img{
-		display: block;
-		width: 100%;
-		height: auto;
-	}
-
-	body > div{
-		margin-top: 0px;
-	}
-
-	.center {
-		margin: auto;
-	}
-
-	.setleft{
-		float: left;
-	}
-
-	.modal-small-img{		
-		width: 300px;
-		height: 350px;
-	}
-	/*.ui.inverted.form input[type=text]{
-		border: 2px solid transparent;
-		}*/
-		.ui.inverted.form input[type=text]:hover{
-			/*border: 2px solid black;*/
-			-webkit-box-shadow: 1px 0px 15px 0px #FE0000;
-			-moz-box-shadow:    1px 0px 15px 0px #FE0000;
-			box-shadow:         1px 0px 15px 0px #FE0000;
-		}
-
-		.ui.inverted.form input[type="text"]:focus{
-			-webkit-box-shadow: 1px 0px 26px 0px #FE0000;
-			-moz-box-shadow:    1px 0px 26px 0px #FE0000;
-			box-shadow:         1px 0px 26px 0px #FE0000;
-		}
-
-		.ui .item .avatar{
-			background-color: #000;
-		}
-
-		.ui.list .list>.item a.header, .ui.list>.item a.header{
-			color: white;
-		}
-
-		.ui.card a, .ui.cards>.card a{
-			color: #292C2F;
-			text-decoration: no
-		}
-		.ui.card a, .ui.cards>.card a:hover{
-			color: #292C2F;
-			text-decoration: no
-		}
-		a :hover{
-			/*color: #292C2F;*/
-			text-decoration: none;
-		}
-		a{
-			/*color: #292C2F;*/
-			text-decoration: none;
-		}
-		.col-heading{
-	        padding-top: 2%;
-	        text-shadow: 5px 4px 4px rgba(150, 150, 150, 1);
-    	}
-
-		.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
-			color: white;
-			background-color: #292C2F;
-			border-color: #49494A
-		}
-
-		.btn-primary{
-			color: white;
-			background-color: #999;
-			border-color: #49494A
-		}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-	.dropdown-content a {
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
-	    text-align: left;
-	}
-
-	.dropdown-content a:hover {background-color: #f1f1f1}
-
-	.dropdown:hover .dropdown-content {
-	    display: block;
-	}
-
-	#subscriber{
-			background: white;
-			border: 1px solid white;
-			color: black;
-			width: 15%;
-			height: 5%;
-			border-radius: 10%;
-			position: fixed;
-			bottom: 0;
-			right: 0;
-			padding: 1%;
-			padding-top: 0.5% !important;
-			padding-bottom: 0.5% !important;
-			z-index: 9999999;
-			margin: 1%;
-
-			/* box shadow code */
-			-webkit-box-shadow: 0px 0px 27px 0px rgba(11, 90, 246, 0.75);
-			-moz-box-shadow:    0px 0px 27px 0px rgba(11, 90, 246, 0.75);
-			box-shadow:         0px 0px 27px 0px rgba(11, 90, 246, 0.75);
-		}
-		#moreSubscriber{
-			visibility: hidden;
-		}
+	
 
 		</style>
 
@@ -247,7 +54,7 @@ li.dropdown {
 
 			<div class="header-limiter">
 
-				<h1><a href="#">Beauties<span>.pk</span></a></h1>
+				<h1><a href="#">Fashion!st<span>.pk</span></a></h1>
 
 				<nav>
 					<a class="smoothScroll" href="#home"><b>Home</b></a>
@@ -265,17 +72,56 @@ li.dropdown {
 		</header>
 		<!-- Header end -->
 
+
+
+		<!-- subscribe us modal -->
+		<div class="modal fade" id="subscriptionModal" tab-index="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div style="background:url(images/subscribeus.jpg)" class="modal-content">
+					<div class="modal-header">
+						<a class="btn btn-default close" data-dismiss="modal">x</a>
+						<h3 style="text-align:center;">Subscribe Us</h3>
+					</div>
+					<div class="modal-body">
+						<form class="ui form">
+							<div class="field">
+								<label>Full Name</label>
+								<input type="text" name="first-name" placeholder="Asma Ali Rana">
+							</div>
+							<div class="field">
+								<label>Phone Number</label>
+								<input type="text" name="last-name" placeholder="0341-1234567">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<a style="color:white;" data-dismiss="modal" id="subscribeLater" class="btn">Later</a>
+						<a href="#" class="btn btn-primary">Subscribe</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end subscribe us modal -->
+
+
+
 		<div  class="container maincontent">
 			
 			<div class="row">
 
-				<div class="ui btn" id="subscriber">
+				<div class="ui btn" id="subscriber" style="visibility:hidden;">
 					<p>Get Yourself Register</p><br>
 
-					<form id="moreSubscriber" style="visibility:hidden;">
-						<input type="text" placeholder="Name" /><br>
-						<input type="text" placeholder="Phone(i.e 0322-1234567)" >
-					</form>	
+					<form id="moreSubscriber" class="ui form">
+							<div class="field">
+								<label>Full Name</label>
+								<input type="text" name="first-name" placeholder="Asma Ali Rana">
+							</div>
+							<div class="field">
+								<label>Phone Number</label>
+								<input type="text" name="last-name" placeholder="0341-1234567">
+							</div>
+						</form>
 				</div>
 
 				
@@ -2083,10 +1929,31 @@ li.dropdown {
 
 				</div>
 			</div> <!-- end row -->
+			
+			<!-- 2nd row started -->
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+					<div class="ui icon button" data-content="0341-1747977" data-variation="basic">
+  						<img style="height:40px; width:40px;" src="images/whatsapp.png">
+					</div>
+					<div class="ui icon button" data-content="0341-1747977" data-variation="basic">
+  						<img style="height:40px; width:40px;" src="images/viber.png">
+					</div>
+					<div class="ui icon button" data-content="check in our facebook page" data-variation="basic">
+  						<a href="https://www.facebook.com/Replica-Dresses-519433281567489/" target="_blank"> <img style="height:40px; width:40px;" src="images/fb.png"></a>
+					</div>
+					<div class="ui icon button" data-variation="basic">
+  						<a href="" target="_blank"> <img style="height:40px; width:40px;" src="images/gp.png"></a>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row end -->
 		</div>
 	</div>
 
 		</div>
+
+		
 
 
 
@@ -2101,15 +1968,29 @@ li.dropdown {
 	<script type="text/javascript">
 	$(document).ready(function() {
 
-		$('#subscriber').click(function  () {
-			// alert($('#subscriber').height());
-			if($('#subscriber').height() == 120.46876){
-				$(this).css('height',"5%");
+
+		// var mainDiv = $('div');
+		// mainDiv.addClass('column');
+		// var childDiv = $('div');
+		// childDiv.addClass('ui link card');
+		// mainDiv.html(childDiv);
+
+
+		// $('.rangoonCol').html(mainDiv).css('padding-top','80px');
+
+        $('#subscriptionModal').modal('show');
+        $('#subscribeLater').click(function  () {
+			$('#subscriber').css("visibility","visible");
+		});
+
+        // social network buttons popup
+		$('.ui.icon.button').popup();
+
+		$('#subscriber').click(function() {
+			if($(this).height == '55.5312%'){
+				$(this).css('height','10%');
 			}else{
-				$('#subscriber').slideDown('fast',function  () {
-					$(this).css('height','20%');
-					$('#moreSubscriber').css('visibility','show');
-				});
+				$(this).height('40%');
 			}
 		});
 

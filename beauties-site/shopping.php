@@ -110,6 +110,8 @@
 			<div class="row">
 
 				<div class="ui btn" id="subscriber" style="visibility:hidden;">
+					
+					<span class="fixed-subscribe-close-btn" style="float:right;  border: 1px solid red; padding:3px; padding-bottom:0px !important; border-radius: 5px;">X</span>
 					<p>Get Yourself Register</p><br>
 
 					<form id="moreSubscriber" class="ui form">
@@ -119,7 +121,7 @@
 							<div class="field">
 								<input type="text" name="last-name" placeholder="eg. 0341-1234567">
 							</div>
-							<button class="btn btn-default" type="button">Subscribe</button>
+							<button class="fixed-subscribe-btn btn btn-default" type="button">Subscribe</button>
 						</form>
 				</div>
 
@@ -1982,6 +1984,10 @@
 			$('#subscriber').css("visibility","visible");
 		});
 
+		$('.fixed-subscribe-close-btn').on('click',function  () {
+			$('#subscriber').css('visibility','hidden');
+		});
+
         // social network buttons popup
 		$('.ui.icon.button').popup();
 
@@ -1991,6 +1997,10 @@
 			}else{
 				$(this).height('20%');
 			}
+		});
+
+		$('.fixed-subscribe-btn').click(function  () {
+			$('#subscriber').css('visibility','hidden');
 		});
 
 		$("#returnmsg").click(function() {
